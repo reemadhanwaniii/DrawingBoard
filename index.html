@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drawing App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="toolbar">
+        <button class="toolItem" id="pencil">Pencil</button>
+        <button class="toolItem" id="eraser">Eraser</button>
+        <button class="toolItem" id="undo">Undo</button>
+        <button class="toolItem" id="redo">Redo</button>
+        <button class="toolItem" id="clearAll">ClearAll</button>
+        <input type="color" class="toolItem" id="colorPicker" value="#000000">
+        Width: <input type="range" id="brushSize" class="toolItem" min="1" max="58" value="5">
+    </div>
+    <canvas id="drawingCanvas"></canvas>
+    <script src="script.js"></script>
+</body>
+</html>

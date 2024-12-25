@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#drawingCanvas {
+    border: 1px solid black;
+    width: 600px;
+    height: 400px;
+}
+
+#toolbar {
+    margin-bottom: 10px;
+}
+
+.toolItem {
+    margin-right: 10px;
+}
+
+.active {
+    background-color: #ddd;
+}
